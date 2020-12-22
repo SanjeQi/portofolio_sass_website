@@ -1,0 +1,22 @@
+{
+  "name": "portofolio_sass_website",
+  "version": "1.0.0",
+  "description": "Sass Portofolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjeQi/portofolio_sass_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanjeQi/portofolio_sass_website/issues"
+  },
+  "homepage": "https://github.com/SanjeQi/portofolio_sass_website#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

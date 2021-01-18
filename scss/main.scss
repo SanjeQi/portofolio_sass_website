@@ -184,7 +184,7 @@ img {
     }
   }
 }
-// ********************************** About Sections
+// ********************************** About Sections : about me & awards
 #about {
   // *************** About A
   &-a {
@@ -221,10 +221,8 @@ img {
         margin: 1rem;
       }
     }
-    //-- Grid Area
-    // -------------- / About A
   }
-  // *************** About B
+  // *************** About B : progress bar
   &-b {
     .progress {
       overflow: hidden;
@@ -240,7 +238,18 @@ img {
       }
     }
   }
-  // -------------- / About B
+  // *************** About C : logos
+  &-c {
+    .about-logos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
+    }
+    img {
+      width: 70%;
+    }
+  }
+  // *************** About D
 }
 
 // --------------------------------- /About Sections

@@ -1,8 +1,8 @@
 @import 'config';
 @import 'utilities';
+@import 'item-grid';
 
 // ****************************************    General Styles
-
 * {
   margin: 0;
   padding: 0;
@@ -305,4 +305,4 @@ img {
     }
   }
 }
-// -- /Footer
+// ---------------------------------- /Footer
